@@ -14,3 +14,8 @@
  *= require_self
  */
 @import "bootstrap/scss/bootstrap";
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+
+.fa, .fas {
+  font-size: 2em;
+}

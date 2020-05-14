@@ -10,6 +10,14 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="d-flex p-3 justify-content-between align-items-center">
+      <div><h1><%= link_to 'Anonymous Wiki', articles_path %></h1></div>
+      <div >
+        <%= link_to 'Create New', new_article_path %>
+      </div>
+    </div>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
